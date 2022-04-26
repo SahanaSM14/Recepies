@@ -1,0 +1,39 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #f8f2ed;
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.boxes{
+    width: 250px;
+    height: auto;
+    color: black;
+    background-color: #dac3ad;
+    padding: 60px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+ .box{
+     display: flex;
+     justify-content: flex-start;
+ }
+
+ .childbox{
+    border-radius: 10px;
+    flex: 1;
+    width: 500px;
+    height: auto;
+ }
